@@ -1,0 +1,18 @@
+[project]
+name = "etf-simulator-backend"
+version = "0.1.0"
+description = "ETF Investment Simulator Backend API"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "sqlalchemy>=2.0.36",
+    "psycopg2-binary>=2.9.10",
+    "pydantic-settings>=2.6.1",
+    "yfinance>=0.2.50",
+    "pandas>=2.2.3",
+    "numpy>=2.2.1",
+    "python-dateutil>=2.9.0",
+    "httpx>=0.28.1",
+]
